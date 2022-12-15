@@ -1,5 +1,5 @@
-#ifndef _MONTY_H
-#define _MONTY_H
+#ifndef TADEM_H
+#define TADEM_H
 
 #include <stdio.h>
 #include <stdlib.h>
