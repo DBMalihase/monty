@@ -92,7 +92,7 @@ void monty_mul(stack_t **stack, unsigned int line_number)
  * @line_number: the current working line number of a monty bytecodes file
  */
 
-void monty_mod(stack_t **stack. unsigned int line_number)
+void monty_mod(stack_t **stack, unsigned int line_number)
 {
 	if ((*stack)->next == NULL || (*stack)->next->next == NULL)
 	{

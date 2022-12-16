@@ -17,7 +17,7 @@ void monty_push(stack_t **stack, unsigned int line_number)
 	stack_t *tmp, *new;
 	int i;
 
-	new = =malloc(sizeof(stack_t));
+	new = malloc(sizeof(stack_t));
 	if (new == NULL)
 	{
 		set_op_tok_error(malloc_error());

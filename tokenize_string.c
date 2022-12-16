@@ -52,7 +52,7 @@ char **strtow(char *str, char *delims)
 			n++;
 		}
 		words[i][n] = '\0';
-		str = get_nert_word(str, delims);
+		str = get_next_word(str, delims);
 		i++;
 	}
 	words[i] = NULL;
